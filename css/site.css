@@ -9,3 +9,19 @@
     padding: 4px;
     
 }
+
+#calcField {
+ background-color: lightgrey;
+ height: 60px;
+ text-align: center;
+ padding-top: 1rem;
+    
+}
+
+#calcField2{
+    background-color: lightgrey;
+    height: 60px;
+    text-align: center;
+    padding-top: 1rem;
+       
+   }
