@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>PageTitle</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/site.css">
+</head>
+
+<body>
+       <div class="container">
+           <h1 class="mt-5">Calculator </h1>
+           <p class="lead">Calculator project with Chris</p>
+           <div id="rowBg" class="row bg-secondary justify-content-center">
+            <p id="calcField">Hello World</p>
+            <div id="minus" class="col-2 button btn-light m-1" onclick="calcMinus()">-</div>
+            <div id="plus" class="col-2 button btn-light m-1" onclick="calcPlus()">+</div>
+            <div id="multiply" class="col-2 button btn-light m-1" onclick="calcMultiply()">x</div>
+            <div id="divide" class="col-2 button btn-light m-1" onclick="calcDivide()">/</div>
+            <div id="erase" class="col-2 button btn-light m-1" onclick="calcErase">C</div>
+           </div>
+           <div id="rowBg" class="row bg-secondary justify-content-center">
+            <div id="seven" class="col-3 button btn-light btn-lg m-1" onclick="calcSeven()">7</div>
+            <div id="eight" class="col-3 button btn-light btn-lg m-1" onclick="calcEight()">8</div>
+            <div id="nine" class="col-3 button btn-light  btn-lg m-1" onclick="calcNine()">9</div>
+            
+           </div>
+           <div id="rowBg" class="row bg-secondary justify-content-center">
+            <div id="four" class="col-2 button btn-light m-1 btn-lg" onclick="calcFour()">4</div>
+            <div id="five" class="col-2 button btn-light m-1 btn-lg" onclick="calcFive()">5</div>
+            <div id="six" class="col-2 button btn-light m-1 btn-lg" onclick="calcSix()">6</div>
+            <div id="rowBg" class="row bg-secondary justify-content-center">
+                <div id="one" class="col-2 button btn-light m-1 btn-lg" onclick="calcOne()">1</div>
+                <div id="two" class="col-2 button btn-light m-1 btn-lg" onclick="calcTwo()">2</div>
+                <div id="three" class="col-2 button btn-light m-1 btn-lg" onclick="calcThree()">3</div>
+           </div>
+       </div>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script> 
+    <script src="js/site.js"></script>
+</body>
+
+</html>
