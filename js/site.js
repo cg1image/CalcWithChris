@@ -1,9 +1,81 @@
+/* 
+When you call a function, code between curly braces (code block) 
+is executed. 
+
+
+
+*/
+
+
+// let input1 = prompt();
+// let input2 = prompt();
+
+
+
+let a = 5;
+
+const si = () => {
+    a = a + 1;
+}
+
+console.log(a); // a = 5
+si(); // a = 6
+console.log(a); // a = 6;
+si();
+console.log(a);
+
+
+
+
+
+
+
+/*
+sumFunc(num1 = 1, num2 = 2){
+    3 = 1 + 2;
+    num1 = 2;
+    num2 = 1;
+    return 3
+}
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 function calcOne () {
     document.getElementById("calcField").textContent = 1;
     let one = document.getElementById("calcField").textContent;
     one = parseInt(one);
-    return one;
+    
 }
 
 
@@ -11,7 +83,7 @@ function calcTwo () {
     document.getElementById("calcField").textContent = 2;
     let two = document.getElementById("calcField").textContent;
     two = parseInt(two);
-    return two;
+    
 }
 
 
